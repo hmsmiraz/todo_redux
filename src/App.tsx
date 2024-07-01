@@ -1,15 +1,11 @@
-import { Button } from "./components/ui/button"
-
-
+import Todo from "./pages/Todo";
 
 function App() {
-
   return (
     <>
-     <h1 className="text-center font-bold text-green-400">My Todo Application</h1>
-    <Button>Button</Button>
+      <Todo></Todo>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
