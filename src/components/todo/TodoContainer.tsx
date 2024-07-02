@@ -7,6 +7,12 @@ import { useAppSelector } from "@/redux/hook";
 const TodoContainer = () => {
   //   const [todos, setTodos] = useState({ data: [] });
   const { todos } = useAppSelector((state) => state.todos);
+//   from server
+// const {data:todos, isLoading, isError} = useGetTodosQuery(undefined);
+// console.log(todos)
+// if(isLoading){
+//     return <p>Loading</p>
+// }
 
   return (
     <div>
