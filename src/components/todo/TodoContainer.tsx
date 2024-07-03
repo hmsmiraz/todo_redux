@@ -11,7 +11,7 @@ const TodoContainer = () => {
 // const {data:todos, isLoading, isError} = useGetTodosQuery(undefined);
 // console.log(todos)
 // if(isLoading){
-//     return <p>Loading</p>
+//     return <p>Loading...</p>
 // }
 
   return (
