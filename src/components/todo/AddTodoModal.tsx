@@ -17,7 +17,8 @@ import { addTodo } from "@/redux/features/todoSlice";
 const AddTodoModal = () => {
   const [task, setTask] = useState("");
   const [description, setDescription] = useState("");
-  const dispatch = useAppDispatch();
+  //!for local state
+  // const dispatch = useAppDispatch();
 
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -29,7 +30,8 @@ const AddTodoModal = () => {
       title: task,
       description: description,
     };
-    dispatch(addTodo(taskDetails));
+    //!for local state
+    // dispatch(addTodo(taskDetails));
   };
 
   return (
